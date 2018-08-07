@@ -1,5 +1,5 @@
-package dz.springFramework.Pet.Clinic.Demo;
-
+package dz.springFramework.petclinic.demo;
+ 
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.boot.test.context.SpringBootTest;

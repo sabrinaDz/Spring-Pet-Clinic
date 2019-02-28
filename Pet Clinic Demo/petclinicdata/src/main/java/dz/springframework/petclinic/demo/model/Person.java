@@ -1,6 +1,6 @@
 package dz.springframework.petclinic.demo.model;
 
-public class Person {
+public class Person extends BaseEntity{
 
 	
 	private String firstName;

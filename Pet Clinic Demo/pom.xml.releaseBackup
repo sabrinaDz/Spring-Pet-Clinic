@@ -4,7 +4,7 @@
 
 	<groupId>dz.springFramework</groupId>
 	<artifactId>petClinic</artifactId>
-	<version>0.0.1</version>
+	<version>0.0.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
 	<name>Pet Clinic Demo</name>
@@ -44,7 +44,6 @@
 	  <developerConnection>scm:git:git@github.com:sabrinaDz/Spring-Pet-Clinic.git</developerConnection>
 	
 	   
-    <tag>petClinic-0.0.1</tag>
   </scm>
 
 	<repositories>

@@ -3,9 +3,14 @@ package map;
 import java.util.Set;
 
 
+
+import org.springframework.stereotype.Service;
+
 import dz.springframework.petclinic.demo.model.Pet;
 import dz.springframework.petclinic.demo.services.PetService;
 
+
+@Service
 public class PetServiceMap  extends AbstractMapService<Pet,Long>
 implements PetService{
 

@@ -28,7 +28,7 @@ implements VetService{
 	@Override
 	public Vet save(Vet vet) {
 		// TODO Auto-generated method stub
-		return super.save(vet.getId(), vet);
+		return super.save(vet);
 	}
 
 	@Override

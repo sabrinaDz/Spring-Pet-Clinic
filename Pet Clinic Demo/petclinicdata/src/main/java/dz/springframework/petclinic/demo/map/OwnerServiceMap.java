@@ -25,7 +25,7 @@ implements OwnerService{
 	@Override
 	public Owner save(Owner object) {
 		// TODO Auto-generated method stub
-		return this.save(object.getId(),object);
+		return super.save(object);
 	}
 
 	@Override

@@ -1,4 +1,4 @@
-package dz.springframework.petclinic.demp.map;
+package dz.springframework.petclinic.demo.map;
 
 import java.util.Set;
 

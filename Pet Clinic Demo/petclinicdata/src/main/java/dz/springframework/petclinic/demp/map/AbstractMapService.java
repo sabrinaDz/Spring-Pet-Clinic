@@ -1,4 +1,4 @@
-package map;
+package dz.springframework.petclinic.demp.map;
 
 import java.util.HashMap;
 import java.util.HashSet;

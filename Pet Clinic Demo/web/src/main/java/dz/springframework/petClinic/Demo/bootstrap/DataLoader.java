@@ -1,9 +1,11 @@
 package dz.springframework.petClinic.Demo.bootstrap;
 
-import map.OwnerServiceMap;
-import map.VetServiceMap;
+ 
 
 
+
+
+ 
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 
@@ -11,13 +13,17 @@ import dz.springframework.petclinic.demo.model.Owner;
 import dz.springframework.petclinic.demo.model.Vet;
 import dz.springframework.petclinic.demo.services.OwnerService;
 import dz.springframework.petclinic.demo.services.VetService;
+ 
 
 
 @Component
 public class DataLoader implements CommandLineRunner{
 
 	 
+	
 	private  final OwnerService ownerService;
+	
+	
 	private final VetService vetService;
 	
 

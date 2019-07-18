@@ -1,4 +1,4 @@
-package dz.springframework.petClinic.Demo.controllers;
+package dz.springframework.petClinic.demo.controllers;
 
 
 
@@ -7,6 +7,8 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 import dz.springframework.petclinic.demo.services.OwnerService;
+
+ 
 
 
 @RequestMapping("/owners")

@@ -1,4 +1,4 @@
-package dz.springframework.petClinic.Demo.bootstrap;
+package dz.springframework.petClinic.demo.bootstrap;
 
  
 
@@ -21,16 +21,13 @@ public class DataLoader implements CommandLineRunner{
 
 	 
 	
-	private  final OwnerService ownerService;
-	
-	
-	private final VetService vetService;
+	private OwnerService ownerService;
+	private VetService vetService;
 	
 
 
 
 	public DataLoader(OwnerService ownerService, VetService vetService) {
-		super();
 		this.ownerService = ownerService;
 		this.vetService = vetService;
 	}

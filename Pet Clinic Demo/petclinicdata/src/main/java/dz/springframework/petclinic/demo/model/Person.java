@@ -1,5 +1,9 @@
 package dz.springframework.petclinic.demo.model;
 
+import javax.persistence.MappedSuperclass;
+
+
+@MappedSuperclass
 public class Person extends BaseEntity{
 
 	

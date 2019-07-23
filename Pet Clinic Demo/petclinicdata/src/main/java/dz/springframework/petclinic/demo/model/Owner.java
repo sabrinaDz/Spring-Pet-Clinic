@@ -3,15 +3,25 @@ package dz.springframework.petclinic.demo.model;
 import java.util.HashSet;
 import java.util.Set;
 
+import javax.persistence.CascadeType;
+import javax.persistence.Entity;
+import javax.persistence.FetchType;
+import javax.persistence.OneToMany;
+import javax.persistence.Table;
+
+
+@Entity
+@Table(name="owners")
 public class Owner extends Person{
 
 	private String adress;
 	private String city;
 	private String telephone;
 	
+	@OneToMany(cascade=CascadeType.ALL,fetch=FetchType.LAZY,mappedBy="owner")
 	private Set<Pet>pets=new HashSet();
 
-	
+
 	
 	public String getAdress() {
 		return adress;

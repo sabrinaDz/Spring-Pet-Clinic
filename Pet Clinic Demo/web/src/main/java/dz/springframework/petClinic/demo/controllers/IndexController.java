@@ -13,4 +13,9 @@ public String index(){
 
 	return "index";
 }
+
+@RequestMapping({"oups"})
+public String findOwners(){
+	return "notImplemented";
+}
 }

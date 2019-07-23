@@ -4,10 +4,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 import org.springframework.stereotype.Service;
-
-import dz.springframework.petclinic.demo.model.Pet;
 import dz.springframework.petclinic.demo.model.PetType;
-import dz.springframework.petclinic.demo.services.PetService;
 import dz.springframework.petclinic.demo.services.PetTypeService;
 
 

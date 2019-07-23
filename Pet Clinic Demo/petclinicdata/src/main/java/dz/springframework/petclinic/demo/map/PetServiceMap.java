@@ -22,25 +22,25 @@ implements PetService{
 	@Override
 	public Pet findById(Long id) {
 		// TODO Auto-generated method stub
-		return this.findById(id);
+		return super.findById(id);
 	}
 
 	@Override
 	public Pet save(Pet object) {
 		// TODO Auto-generated method stub
-		return null;
+		return super.save(object);
 	}
 
 	@Override
 	public void delete(Pet object) {
 		// TODO Auto-generated method stub
-		
+		  super.delete(object);
 	}
 
 	@Override
 	public void deleteBydId(Long id) {
 		// TODO Auto-generated method stub
-		
+		super.deleteById(id);
 	}
 
 }

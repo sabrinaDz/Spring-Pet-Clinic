@@ -2,6 +2,9 @@ package dz.springframework.petclinic.demo.model;
 
 import java.time.LocalDate;
 
+import javax.persistence.Entity;
+
+@Entity
 public class Visit extends BaseEntity{
 
 	private LocalDate date;
